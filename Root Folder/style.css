@@ -1,4 +1,35 @@
 h1 {
-  color: red;
+  color: white;
   font-family: "Impact";
+  text-align: center;
+  padding: 200px 0;
+  te
+}
+ul {
+  list-style-type: none;
+  background-color: transparent;
+  font-family: "Courier New";
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+li{
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+body {
+background-image:
+url("191512459987shhqugbxi8l8jjwijyhneydpv0c4hl1oxhi3jycrlxo3ahtfgi6tpx49eynb6disgnugdc0nxdmvvznnyvhoordwyvcet2bcazbs.jpg");
 }
