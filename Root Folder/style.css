@@ -1,28 +1,28 @@
-h1 {
+h1 {          /*makes <h1> white with the font impact and makes it aligned in the center*/
   color: white;
   font-family: "Impact";
   text-align: center;
   padding: 200px 0;
 }
-h2 {
+h2 { /*makes <h2> white with font Trebuchet MS*/
   font-family: "Trebuchet MS";
   color: white
 }
 
-body {
+body { /*makes <body> background bluish grey*/
   background: #a4b0c4;
   margin:0;
 }
 
 
-body {
+body { /*aligns <body> in the center*/
 align-items: center;
 background-repeat: repeat-x;
 background-repeat: repeat-y;
 }
 
 
-ul {
+ul { /*makes <ul> aligned correctly in the navigation bar*/
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -31,11 +31,11 @@ ul {
 
 }
 
-li {
+li { /*makes <li> aligned on the left*/
   float: left;
 }
 
-li a, .dropbtn {
+li a, .dropbtn { /*makes <li <a> into a dropdown bar>*/
   display: inline-block;
   color: white;
   text-align: center;
@@ -43,16 +43,16 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn { /*makes the dropdown bar hover into white background and black text*/
   background-color: white;
   color: black;
 }
 
-li.dropdown {
+li.dropdown { /*makes <ul> aligned in the dropdown bar*/
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdown-content { /*makes the dropdown content aligned in the dropdown bar*/
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -61,7 +61,7 @@ li.dropdown {
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a { /*makes the dropdown bar */
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -69,24 +69,24 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover { /*adds black effect to hover feature of the dropdown bar*/
   background-color: black;
   color: white;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content { /*displays the dropdown bar in a block format*/
   display: block;
 }
 
-html {
+html {   /*makes the scrolling of the website smooth*/
   scroll-behavior:smooth;
 }
 
-#section1 {
+#section1 { /*adds barriers to section 1 of scrolling*/
   height: 600px;
   background-color: transparent;
 }
 
-#section2 {
+#section2 { /*adds barriers to section 2 of scrolling*/
   height: 600px;
   background-color: transparent;
